@@ -1,0 +1,220 @@
+#mynav{
+	
+	
+	border:0px;
+	border-radius:0px;
+	font-family:sans-serif;
+	font-weight:700;
+	text-transform:uppercase;
+}
+#mynav a{
+	color :#fff !important;
+	opacity: 0.7;
+}
+#mynav a:hover{
+	opacity:1;
+	background-color:#111111 !important;
+}
+#header {
+	min-height:600px;
+	width:100%;
+	padding:30px 0 3px;
+	background-image:url(../img/bg3.jpg);
+	background-position: center center;
+	background-repeat:no-repeat;
+	background-size:cover;
+    color:#fff;
+	margin-top:50px;
+}
+#header h1{
+	font-size:40px;
+	font-weight:700;
+	padding-top:30px;
+}
+#header h1,p,button{
+	margin:10px;
+}
+#header img {
+	margin-top: 60px;
+	border-radius: 30px;
+	margin-left: 58px;
+}
+#header .btn{
+	border-radius:0px;
+	margin:40px 20px;
+}
+@media (max-width:768px) { 
+
+#header img{
+	width:72%;
+	height:285px;
+	margin-bottom:40px;
+}
+
+ }
+ #services{
+	 text-align:center;
+	
+ }
+ #services  h2,h4{
+	 color:#4c4c4c;
+	 margin:20px 0 20px;
+ }
+ 
+ 
+ #services i {
+	font-size: 38px;
+	color: #fff;
+	width: 88px;
+	height: 88px;
+	background-color: #6699cc;
+	padding: 25px 20px;
+	border-radius: 50%;
+}
+ 
+ 
+ #pricing{
+	 text-align:center;
+	 background-color:#3399ff;
+	 color:#fff;
+	
+ }
+ #pricing h2, P {
+	margin-bottom: 20px;
+	
+}
+ #pricing .pakages {
+	background-color: #fff;
+	padding: 13px;
+	border-radius: 8px;
+	color:#666;
+	margin-bottom: 20px;
+}
+
+#pricing .pakages li {
+	
+	list-style: none;
+	padding: 3px;
+	font-family: serif;
+	font-size: 16px;
+}
+#team {
+	text-align: center;
+	margin-top: 28px;
+	margin-bottom:10px;
+	
+}
+#team img{
+	width:150px;
+	height:150px;
+	margin-top: 10px;
+	
+}
+#img {
+	margin-bottom:20px;
+}
+#team i {
+	font-size: 20px;
+	margin: 5px;
+	background: #9AE186;
+	padding: 8px;
+	border-radius: 18px;
+	color:#fff;
+}
+#team a :hover{
+	color:pink;
+}
+#clints {
+	background-color:#3399cc;
+	text-align:center;
+	color:#fff;
+}
+#clints  img{
+	width:200px;
+	height:200px;
+	cursor:pointer;
+	
+	transition:all 500s ease-in-out;
+	 -moz-transition: all 1s ease;
+	margin-bottom:10px;
+}
+#clints li{
+	list-style:none;
+}
+#clints li :hover  img{
+	opacity:1.5;
+	
+}
+
+#contact{
+	padding:50px 0px 80px;
+	text-align:center;
+}
+
+
+#contact p{
+	padding-bottom:80px;
+	color:#737373;
+}
+#contact h2{
+	color:#4c4c4c;
+	margin:20px 0 20px;
+}
+
+#contact .input-group{
+	margin-bottom:25px;
+}
+#contact  .form-control{
+border-radius:0px;
+}
+#contact   span{
+	border-radius:0px;
+}
+
+#contact  .btn{
+	border-radius:0px;
+	width:100%;
+	font-size:15px;
+	background-color:#f08080;
+	color:#fff;
+}
+#contact  .btn:hover{
+	background-color:#a85959;
+	color:#fff;
+}
+
+#footer{
+	background-color:#222222;
+	padding:30px;
+	color:#cccccc;
+}
+#footer .social {
+	float: left;
+	margin-right: 9px;
+	
+	padding: 5px;
+	border: 1px solid #cccccc;
+	font-size: 20px;
+	width: 30px;
+	height: 30px;
+	margin-bottom: 2px;
+}
+#footer .social:hover{
+	
+	background:red;
+}
+#footer h4{
+	color:#cccccc;
+}
+#footer  input{
+	height:40px;
+	width:160px;
+	background-color:#cccccc;
+	border:none;
+	color:#000;
+	padding:5px;
+}
+#footer .btn {
+	padding: 10px 2px 9px;
+	margin: 2px 7px 4px;
+}
